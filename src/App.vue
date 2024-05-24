@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <academy msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import academy from './components/academy.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    academy
   }
 }
 </script>
@@ -20,7 +19,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+body{
+  background-color: rgb(0, 0, 0);
 }
 </style>
